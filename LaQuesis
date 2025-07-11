@@ -44,10 +44,6 @@ local Tabs = {
         Title = "Calculadora",
         Icon = "phosphor-users-bold"
     },
-    Mascotas = Window:CreateTab{
-        Title = "Mascotas",
-        Icon = "phosphor-users-bold"
-    },
 }
 
 local Options = Library.Options
