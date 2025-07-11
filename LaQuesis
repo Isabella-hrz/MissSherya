@@ -4,26 +4,42 @@ local InterfaceManager = loadstring(game:HttpGetAsync("https://raw.githubusercon
  
 local Window = Library:CreateWindow{
     Title = "Sherya Script",
-    SubTitle = "by Isabella (Sherya)",
+    SubTitle = "By Isabella",
     TabWidth = 160,
     Size = UDim2.fromOffset(830, 525),
     Resize = true, -- Resize this ^ Size according to a 1920x1080 screen, good for mobile users but may look weird on some devices
     MinSize = Vector2.new(470, 380),
     Acrylic = true, -- The blur may be detectable, setting this to false disables blur entirely
-    Theme = "Dark",
+    Theme = "Amethyst",
     MinimizeKey = Enum.KeyCode.RightControl -- Used when theres no MinimizeKeybind
 }
 
 -- Fluent Renewed provides ALL 1544 Lucide 0.469.0 https://lucide.dev/icons/ Icons and ALL 9072 Phosphor 2.1.0 https://phosphoricons.com/ Icons for the tabs, icons are optional
 local Tabs = {
-    Main = Window:CreateTab{
-        Title = "Main",
+    Principal = Window:CreateTab{
+        Title = "Principal",
         Icon = "phosphor-users-bold"
     },
-    Settings = Window:CreateTab{
-        Title = "Settings",
-        Icon = "settings"
-    }
+    Farming = Window:CreateTab{
+        Title = "Farming",
+        Icon = "Happy"
+    },
+    Rebirths = Window:CreateTab{
+        Title = "Rebirths",
+        Icon = "Happy"
+    },
+    Killer = Window:CreateTab{
+        Title = "Killer",
+        Icon = "Happy"
+    },
+    Miscelanea = Window:CreateTab{
+        Title = "Miscelanea",
+        Icon = "Happy"
+    },
+    Calculadora = Window:CreateTab{
+        Title = "Calculadora",
+        Icon = "Happy"
+    },
 }
 
 local Options = Library.Options
