@@ -43,15 +43,15 @@ local Tabs = {
     Calculadora = Window:CreateTab{
         Title = "Calculadora",
         Icon = "phosphor-users-bold"
-    },
+    }
 }
 
 local Options = Library.Options
 
 Library:Notify{
-    Title = "Notification",
-    Content = "This is a notification",
-    SubContent = "SubContent", -- Optional
+    Title = "Bienvenido amiguito",
+    Content = "El segundo mejor script de ML",
+    SubContent = "Lurnai es el primero", -- Optional
     Duration = 5 -- Set to nil to make the notification not disappear
 }
 
