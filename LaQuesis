@@ -22,23 +22,31 @@ local Tabs = {
     },
     Farming = Window:CreateTab{
         Title = "Farming",
-        Icon = "Happy"
+        Icon = "phosphor-users-bold"
     },
     Rebirths = Window:CreateTab{
         Title = "Rebirths",
-        Icon = "Happy"
+        Icon = "phosphor-users-bold"
     },
     Killer = Window:CreateTab{
         Title = "Killer",
-        Icon = "Happy"
+        Icon = "phosphor-users-bold"
+    },
+    Jugadores = Window:CreateTab{
+        Title = "Jugadores",
+        Icon = "phosphor-users-bold"
     },
     Miscelanea = Window:CreateTab{
         Title = "Miscelanea",
-        Icon = "Happy"
+        Icon = "phosphor-users-bold"
     },
     Calculadora = Window:CreateTab{
         Title = "Calculadora",
-        Icon = "Happy"
+        Icon = "phosphor-users-bold"
+    },
+    Mascotas = Window:CreateTab{
+        Title = "Mascotas",
+        Icon = "phosphor-users-bold"
     },
 }
 
